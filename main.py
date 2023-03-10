@@ -3,7 +3,7 @@ def main():
     # Complete your code here 
     #####################################################
   celsius = float(input())
-  fahrenheit = ((9/5)*celsius)+32
+  fahrenheit = ((9/5) * celsius)+32
   print (f'Fahrenheit: {fahrenheit}')
 
   pass 
