@@ -2,9 +2,11 @@ def main():
     #####################################################
     # Complete your code here 
     #####################################################
-  celsius = float(input())
-  fahrenheit = ((9/5) * celsius)+32
-  print (f'Fahrenheit: {fahrenheit}')
+  celcius = int(input('Enter the Celcius Degree: '))
+  fahrenheit = (9.0 / 5.0) * celcius + 32
+  print(f'Fahrenheit is {fahrenheit:.2f}')
+  
+  
 
   pass 
 
